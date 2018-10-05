@@ -1,10 +1,10 @@
-const express = require('express');
-const path = require('path');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const passport = require('passport');
-const mongoose = require('mongoose');
-const config = require('./config/database');
+var express = require('express');
+var path = require('path');
+var bodyParser = require('body-parser');
+var cors = require('cors');
+var passport = require('passport');
+var mongoose = require('mongoose');
+var config = require('./config/database');
 
 //Connect to Database
 mongoose.connect(config.database);
